@@ -1,0 +1,38 @@
+locals {
+  env = {
+    default = {}
+    pre = {
+      // DEV
+      // vcn_id              = "ocid1.vcn.oc1.sa-vinhedo-1.amaaaaaaiictwqyayhpttx5r6wfwmrpi54whmaf4rrocz3rdzjknbfwiwsma"
+      // HML
+      // vcn_id              = "ocid1.vcn.oc1.sa-vinhedo-1.amaaaaaaiictwqyaea4ykskl7bpdvemla7cea6rhpsmbhvdad5thcabgnizq"
+      // PRD
+      vcn_id                 = "ocid1.vcn.oc1.sa-saopaulo-1.amaaaaaaiictwqya2eb4hezvyq2scy7dmnhyf7e4gfxzewmqnwion3dndbcq"
+      
+      // DEV
+      // subnet_nlb_id       = "ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaahxnivobquzdsn4ejykoz73nv3h2ooignrm7d7jyo64gph6qd2bqa"
+      // HML 
+      // subnet_nlb_id       = "ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaal4vn2zhkl4pca6bqnet27ditgzttcvssul5dh4heic5om3p6zjfa"
+      // PRD
+      subnet_nlb_id          = "ocid1.subnet.oc1.sa-saopaulo-1.aaaaaaaao2ebys3fv67pvaromaoie4z7h6qqyegrmy3sylhnfagqbsfxqqoq"
+      
+      // DEV 
+      // subnet_pool_id      = "ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaalh3ldb4targ6wzgij26bdme3smtxgyjww4ll5w5jxhe3vupviapa"
+      // subnet_pool_ids     = ["ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaalh3ldb4targ6wzgij26bdme3smtxgyjww4ll5w5jxhe3vupviapa"]
+      // HML
+      // subnet_pool_id      = "ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaal4vn2zhkl4pca6bqnet27ditgzttcvssul5dh4heic5om3p6zjfa"
+      // subnet_pool_ids     = "ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaal4vn2zhkl4pca6bqnet27ditgzttcvssul5dh4heic5om3p6zjfa"
+      // PRD
+      subnet_pool_id         = "ocid1.subnet.oc1.sa-saopaulo-1.aaaaaaaao2ebys3fv67pvaromaoie4z7h6qqyegrmy3sylhnfagqbsfxqqoq"
+      subnet_pool_ids        = ["ocid1.subnet.oc1.sa-saopaulo-1.aaaaaaaao2ebys3fv67pvaromaoie4z7h6qqyegrmy3sylhnfagqbsfxqqoq"]
+      availability_domain    = "bTcf:SA-VINHEDO-1-AD-1"
+      
+      // DEV
+      // compartment_id      = "ocid1.compartment.oc1..aaaaaaaaqqeq5cnzdxqsojene4wia5kesked5wkdwpitanqhlvzqpg7weyna"
+      // HML
+      // compartment_id      = "ocid1.compartment.oc1..aaaaaaaa44zplfaeqmzaaqfhdy32hmokxhfuhdxtbpkglnnhqarb4tbaq6ia"
+      // PRD
+      compartiment_id     = "ocid1.compartment.oc1..aaaaaaaajjzvyb2d45wjgeha27bby3ok6iimaivcvli2cl44z5nsqzhmcsla"
+      }
+  }
+}
